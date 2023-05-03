@@ -121,7 +121,7 @@ html! {
 Yewdux supports predictable mutation. Simply define your message and apply it.
 
 ```rust
-struct Msg {
+enum Msg {
     AddOne,
 }
 
